@@ -1,3 +1,5 @@
+require 'rspec/matchers'
+
 module RSpec
   module GraphQLResponse
     def self.add_matcher(name, &matcher)
